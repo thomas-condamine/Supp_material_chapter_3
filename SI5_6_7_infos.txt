@@ -1,0 +1,1 @@
+Dans les phylogénies "collapsed" des SI5, SI6 et SI7, les séquences appartenant à un même groupe Wnt ont été rassemblées, et le nom du groupe contient la valeur du bootstrap du noeud (2 derniers chiffres, ou 3 pour un bootstrap de 100).

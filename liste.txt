@@ -1,0 +1,13 @@
+SI1. Alignement et phylogénie correspondant à l'analyse incluant des gènes Wnt de spongiaires.
+
+SI2. Alignement et phylogénie correspondant à l'analyse incluant des gènes Wnt de cténophores.
+
+SI3. Alignement et phylogénie correspondant à l'analyse incluant des gènes Wnt de placozoaires.
+
+SI4. Liste des séquences utilisées dans les analyses principales.
+
+SI5. Alignement et phylogénie correspondant à l'analyse principale incluant seulement les gènes Wnt de bilatériens et d'anthozoaires.
+
+SI6. Alignement et phylogénie correspondant à l'analyse principale incluant les gènes Wnt de bilatériens, d'anthozoaires et de médusozoaires.
+
+SI7. Alignements et phylogénies correspondant aux analyses partielles incluant les gènes Wnt de bilatériens et d'anthozoaires, et un seul groupe de gènes Wnt de médusozoaires par analyse.

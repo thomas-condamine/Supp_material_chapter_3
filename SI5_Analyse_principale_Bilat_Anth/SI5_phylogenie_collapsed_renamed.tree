@@ -1,0 +1,119 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=25;
+	taxlabels
+	AnthW1099
+	AnthW11100
+	AnthW1680
+	AnthW196
+	AnthW298
+	AnthW397
+	AnthW468
+	AnthW552
+	AnthW645
+	AnthW796
+	AnthW892
+	AnthWA98
+	BilatW1057
+	BilatW1197
+	BilatW1657
+	BilatW199
+	BilatW278
+	BilatW3100
+	BilatW443
+	BilatW584
+	BilatW656
+	BilatW783
+	BilatW898
+	BilatW999
+	BilatWA93
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ((((AnthW196:0.140393,((BilatW656:0.101145,AnthW645:0.083931)[&bootstrap=90]:0.203158,BilatW199:0.211635)[&bootstrap=30]:0.02405)[&bootstrap=53]:0.081203,(AnthW397:0.260049,((BilatWA93:0.282904,(((((AnthW11100:0.404099,BilatW1197:0.151213)[&bootstrap=90]:0.157817,(AnthW468:0.088894,BilatW443:0.07927)[&bootstrap=85]:0.084251)[&bootstrap=60]:0.071252,(BilatW3100:0.232008,(AnthW1680:0.148174,BilatW1657:0.053656)[&bootstrap=96]:0.233096)[&bootstrap=8]:0.044767)[&bootstrap=6]:0.030572,(AnthW552:0.129509,BilatW584:0.095098)[&bootstrap=60]:0.174508)[&bootstrap=6]:0.034594,((BilatW278:0.091775,AnthW298:0.216823)[&bootstrap=89]:0.125775,(AnthW796:0.227483,BilatW783:0.099936)[&bootstrap=91]:0.184855)[&bootstrap=34]:0.062838)[&bootstrap=5]:0.048703)[&bootstrap=21]:0.0277,(BilatW898:0.169938,AnthW892:0.192023)[&bootstrap=100]:0.419479)[&bootstrap=15]:0.026932)[&bootstrap=20]:0.061672)[&bootstrap=7]:0.046241,AnthWA98:0.310794)[&bootstrap=48]:0.067849,BilatW999:0.357174,(AnthW1099:0.163132,BilatW1057:0.037685)[&bootstrap=94]:0.161954)[&bootstrap=48];
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="Calibri";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="bootstrap";
+	set nodeLabels.fontName="Calibri";
+	set nodeLabels.fontSize=12;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute=null;
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Calibri";
+	set tipLabels.fontSize=12;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

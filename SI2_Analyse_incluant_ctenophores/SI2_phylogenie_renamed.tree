@@ -1,0 +1,462 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=360;
+	taxlabels
+	AauWnt1
+	AauWnt11a
+	AauWnt11b
+	AauWnt4
+	AauWnt4b
+	AauWnt16
+	AauWnt2
+	AauWnt5
+	AauWntA
+	AauWnt7
+	AauWnt7b
+	AauWnt8
+	AauWnt6
+	AauWnt11b.v2
+	AauWnt11b.v1
+	AauWnt11b.v3
+	AauWnt1.v1
+	AauWntA.v1
+	APcaWntA
+	APcaWnt2
+	APcaWnt5
+	AfaWnt4
+	AkoWnt5
+	AlcLW10_1
+	AlcLW16_1
+	AlcLW1_1
+	AlcLW1_2
+	AlcLW2_1
+	AlcLW2_2
+	AlcLW3_1
+	AlcLW4_1
+	AlcLW4_2
+	AlcLW4_3
+	AlcLW5_1
+	AlcLW6_1
+	AlcLW6_2
+	AlcLW8_1
+	AlcLWA_1
+	AntLW10_1
+	AntLW16_1
+	AntLW16_2
+	AntLW1_1
+	AntLW2_1
+	AntLW2_2
+	AntLW3_1
+	AntLW4_1
+	AntLW4_2
+	AntLW4_4
+	AntLW5_1
+	AntLW5_2
+	AntLW6_1
+	AntLW7_1
+	AntLW8_1
+	AntLW8_2
+	AntLWA_1
+	ApeLW10_1
+	ApeLW2_1
+	ApeLW4_1
+	ApeLW5_1
+	ApeLW5_2
+	ApeLW7_1
+	ApeLW8_1
+	ApeLW8_2
+	ApeLWA_1
+	ApiWntA
+	BbeWnt7
+	BbeWnt8
+	BflWntA
+	BflWnt10
+	BflWnt11
+	BflWnt1
+	BflWnt3
+	BflWnt4
+	BflWnt5
+	CelWnt10
+	CelWnt4
+	CelWnt5
+	CheWnt11b
+	CheWnt5
+	CheWX
+	CheWY
+	CheWnt6.v1
+	CheWntA
+	CheWnt11a
+	CheWnt1
+	CheWnt2
+	CheWnt3
+	CheWnt4
+	CheWnt6
+	CheNWA_1
+	CheWnt1b
+	CheWnt7
+	CheWnt8
+	CheWnt5b
+	CinWnt3
+	CinWnt5
+	CmuNW3_1
+	CoeLW2_1
+	CoeLW6_1
+	CoeLWA_1
+	CoeLWC_1
+	CphWnt1
+	CteWntA
+	CteWnt16
+	CteWnt5
+	DjaWnt1
+	DmeWnt10
+	DmeWnt1
+	DmeWnt5
+	DmeWnt6
+	DmeWnt7
+	DmeWnt8
+	DmeWnt9
+	DpuNW3_1
+	DApuWnt10
+	DApuWnt16
+	DApuWnt1
+	DApuWnt2
+	DApuWnt5
+	DApuWnt9
+	DreWnt11
+	DreWnt16
+	DreWnt4
+	DreWnt5
+	EkaWntA
+	EkaWnt10
+	EkaWnt11
+	EkaWnt16
+	EkaWnt2
+	EkaWnt4
+	EkaWnt5
+	EkaWnt6
+	EkaWnt7
+	EkaWnt9
+	ElaWnt2
+	ElaWnt6
+	ElaWnt8
+	ElaWnt5
+	ElaWnt3
+	ElaWnt7
+	EscWnt5
+	EseWntA
+	EtrWnt6
+	EtrWnt7
+	EtrWnt8
+	GmaWntA
+	GmaWnt11
+	GmaWnt7
+	GmaWnt8
+	GmaWnt9
+	GtiWnt5
+	HdiLW16_1
+	HdiLW4_1
+	HdiLW5_1
+	HdiLW5_2
+	HdiLWA_2
+	HecWnt1
+	HecWnt11a
+	HecWnt11b
+	HecWnt4
+	HecWnt2
+	HecWntA
+	HecWnt7
+	HecWnt8
+	HecWnt6
+	HecWnt5
+	HecWnt3
+	HerWntA
+	HerWnt10
+	HerWnt1
+	HroWnt10
+	HroWnt11a
+	HroWnt11b
+	HroWnt11c
+	HroWnt16
+	HroWnt5a
+	HroWnt5b
+	HroWnt5c
+	HroWnt4
+	HroWnt5
+	HsaWnt10b
+	HsaWnt2b
+	HsaWnt9
+	HsaWnt9b
+	HsaWnt1
+	HsaWnt2
+	HspWnt10
+	HspWnt2
+	HspWnt4
+	HspWnt6
+	HspWnt1
+	HspWnt7
+	HvuWnt11b
+	HvuWnt6b
+	HvuWnt1
+	HvuWnt2
+	HvuWnt6c.v1
+	HvuWnt3
+	HvuWnt4
+	HvuWnt6c
+	HvuWnt6a
+	HvuWnt8
+	HvuWnt7
+	HvuWnt5
+	LcaLW11_1
+	LcaLW11_2
+	LcaLW11_3
+	LcaLW16_1
+	LcaLW16_2
+	LcaLW16_3
+	LcaLW1_1
+	LcaLW1_2
+	LcaLW1_3
+	LcaLW2_1
+	LcaLW2_2
+	LcaLW3_1
+	LcaLW5_1
+	LcaLW8_1
+	LcaLWB_1
+	LflNW3_1
+	LgiWnt11
+	LgiWnt16
+	LgiWnt1
+	LgiWnt4
+	LgiWntA
+	LgiWnt6
+	LgiWnt7
+	LgiWnt9
+	LirLW11_1
+	LirLW1_2
+	LirLW2_1
+	LirLW2_2
+	LirLW2_3
+	LirLW2_4
+	LirLW3_1
+	LirLW3_2
+	LirLW3_3
+	LirLW4_1
+	LirLW5_1
+	LirLW5_3
+	LirLW5_6
+	LirLW5_8
+	LirLWB_1
+	LirLWB_2
+	LirLWC_1
+	LirLWC_2
+	LirLWA_1
+	LpaLW11_1
+	LpaLW1_1
+	LpaLW4_1
+	LpaLW5_1
+	LpaLW6_1
+	LpaLW9_1
+	LpaLWC_1
+	LpaLWC_2
+	LpaLWC_3
+	McoWnt5
+	MleLW5_1
+	MleLW6_1
+	MleLW7_1
+	MleLWC_1
+	NveWnt7b.v1
+	NveWnt10
+	NveWnt11
+	NveWnt1
+	NveWnt4
+	NveWntA
+	NveWnt6.v1
+	NveWnt7b
+	NveWnt7a
+	NveWnt8b
+	NveWnt8
+	NveWnt8c
+	NveWnt3
+	NveWnt16
+	NveWnt2
+	NveWnt5
+	NveWnt6
+	ObiWnt7
+	POcaWnt11a
+	POcaWnt11b
+	POcaWnt2
+	POcaWnt3
+	POcaWnt5
+	POcaWntA
+	POcaWnt7
+	POcaWnt8
+	POcaWnt6
+	POcaWnt1
+	PduNWt11_1
+	PduWnt5
+	PduWntA
+	PduWnt8
+	PduWnt9
+	PduWnt10
+	PduWnt16
+	PduWnt2
+	PduWnt4
+	PduWnt6
+	PduWnt7
+	PjaWnt5
+	PnoLW11_1
+	PnoLW2_1
+	PnoLW2_2
+	PnoLW2_3
+	PnoLW3_1
+	PnoLW4_1
+	PnoLW5_1
+	PnoWX
+	PnoLW8_1
+	PnoLWB_1
+	PnoLWB_2
+	PnoLW7_1
+	PnuWnt1
+	PpiLW11_1
+	PpiLW11_2
+	PpiLW2_1
+	PpiLW6_1
+	PpiLW7_1
+	PpiWnt9_1
+	PruLW16_1
+	PruLW4_1
+	PruLW5_1
+	PvuWntA
+	PvuWnt10
+	PvuWnt1
+	PvuWnt2
+	RbiWnt1
+	ResWnt5
+	ResWnt3
+	ResWnt4
+	SkoWntA
+	SkoWnt10
+	SkoWnt11
+	SkoWnt16
+	SkoWnt1
+	SkoWnt3
+	SkoWnt4
+	SkoWnt6
+	SkoWnt7
+	SkoWnt8
+	SkoWnt9
+	SmaWnt10
+	SmaWnt11
+	SmaWnt1
+	SmaWnt4
+	SmaWnt6
+	SpuWntA
+	SpuWnt6
+	SpuWnt8
+	TcyLW16_1
+	TsoW4_1
+	TsuWntA
+	VmuLW4_1
+	VmuLW5_1
+	VmuLW6_1
+	VmuLWC_1
+	XlaWnt3
+	XlaWnt6
+	XlaWnt8
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ((LirLW5_1:0.0)[&!hilight={1,0.025,#ff6600}]:0.049768,(((POcaWnt5:0.0)[&!hilight={1,0.025,#ff6600}]:0.067983,(HecWnt5:0.0)[&!hilight={1,0.025,#ff6600}]:0.098992)[&bootstrap=98]:0.142699,((((LirLW5_8:0.0)[&!hilight={1,0.025,#ff6600}]:0.128588,(LirLW5_3:0.0)[&!hilight={1,0.025,#ff6600}]:0.015596)[&bootstrap=59]:0.417474,(((LcaLW5_1:0.0)[&!hilight={1,0.025,#6600cc}]:0.203787,((PnoLW5_1:0.0)[&!hilight={1,0.025,#ff0066}]:0.12853,((ResWnt5:0.0)[&!hilight={1,0.025,#ff0066}]:0.120723,(AauWnt5:0.0)[&!hilight={1,0.025,#ff0066}]:0.087489)[&bootstrap=63]:0.028524)[&bootstrap=99]:0.152871)[&bootstrap=72]:0.061214,(((AlcLW5_1:0.0)[&!hilight={1,0.025,#ff0000}]:0.442518,(PruLW5_1:0.0)[&!hilight={1,0.025,#ff0000}]:0.694381)[&bootstrap=92]:0.437986,((((((((AkoWnt5:0.173722,BflWnt5:0.230357)[&bootstrap=47]:0.067756,DreWnt5:0.207207)[&bootstrap=42]:0.046688,((DApuWnt5:0.119175,((((HdiLW5_1:0.0)[&!hilight={1,0.025,#ff0000}]:0.212624,DmeWnt5:0.351717)[&bootstrap=20]:0.101105,McoWnt5:0.098115)[&bootstrap=21]:0.09125,EkaWnt5:0.185241)[&bootstrap=2]:0.03392)[&bootstrap=17]:0.039773,((PduWnt5:0.12408,(CteWnt5:0.140764,(HroWnt5c:0.680345,HroWnt5a:0.304068)[&bootstrap=55]:0.09829)[&bootstrap=66]:0.080116)[&bootstrap=38]:0.031605,(EscWnt5:0.285725,APcaWnt5:0.132359)[&bootstrap=32]:0.019116)[&bootstrap=48]:0.083164)[&bootstrap=7]:0.050453)[&bootstrap=6]:0.120913,(GtiWnt5:0.853821,(CinWnt5:0.230746,HroWnt5:0.438456)[&bootstrap=95]:0.180558)[&bootstrap=11]:0.084777)[&bootstrap=4]:0.045483,(PjaWnt5:0.965255,((((DjaWnt1:0.845337,(((((((LirLWC_1:0.0)[&!hilight={1,0.025,#ff6600}]:0.004787,(LirLWC_2:0.0)[&!hilight={1,0.025,#ff6600}]:0.160064)[&bootstrap=99]:0.432107,(CheWnt7:0.0)[&!hilight={1,0.025,#ff6600}]:0.57523)[&bootstrap=12]:0.140761,((HecWnt7:0.0)[&!hilight={1,0.025,#ff6600}]:0.318947,(POcaWnt7:0.0)[&!hilight={1,0.025,#ff6600}]:0.204692)[&bootstrap=23]:0.07182)[&bootstrap=7]:0.112402,((HvuWnt7:0.0)[&!hilight={1,0.025,#ff6600}]:0.394725,((LirLW4_1:0.0)[&!hilight={1,0.025,#ff6600}]:0.438184,(ElaWnt7:0.0)[&!hilight={1,0.025,#ff6600}]:0.450937)[&bootstrap=6]:0.086432)[&bootstrap=11]:0.217989)[&bootstrap=6]:0.298519,(LcaLW16_2:0.0)[&!hilight={1,0.025,#6600cc}]:0.474049)[&bootstrap=3]:0.065408,((PnoLW7_1:0.0)[&!hilight={1,0.025,#ff0066}]:0.111389,(AauWnt7:0.0)[&!hilight={1,0.025,#ff0066}]:0.210771)[&bootstrap=90]:0.264303)[&bootstrap=3,!collapse={"collapsed",5.05488},!name="MedWnt7"]:0.177704)[&bootstrap=2]:0.159836,((AlcLW8_1:0.0)[&!hilight={1,0.025,#ff0000}]:0.856889,HspWnt2:0.928053)[&bootstrap=2]:0.08176)[&bootstrap=0]:0.151039,(((((PduWnt2:0.153377,(PvuWnt2:0.197165,APcaWnt2:0.154067)[&bootstrap=72]:0.053732)[&bootstrap=46]:0.03759,(DApuWnt2:0.45917,EkaWnt2:0.064296)[&bootstrap=43]:0.041215)[&bootstrap=37]:0.062272,(HsaWnt2b:0.165276,HsaWnt2:0.184663)[&bootstrap=95]:0.112079)[&bootstrap=49]:0.123161,((((((PnoLW2_3:0.0)[&!hilight={1,0.025,#ff0066}]:0.101671,((PnoLW2_1:0.0)[&!hilight={1,0.025,#ff0066}]:1.0E-6,((PnoLW2_2:0.0)[&!hilight={1,0.025,#ff0066}]:0.16887,(AauWnt2:0.0)[&!hilight={1,0.025,#ff0066}]:1.0E-6)[&bootstrap=74]:0.081389)[&bootstrap=59]:0.020793)[&bootstrap=93]:0.169748,(LcaLW2_1:0.0)[&!hilight={1,0.025,#6600cc}]:0.404293)[&bootstrap=41]:0.066392,(((ElaWnt2:0.0)[&!hilight={1,0.025,#ff6600}]:0.383376,(((HvuWnt2:0.0)[&!hilight={1,0.025,#ff6600}]:0.490798,(CheWnt2:0.0)[&!hilight={1,0.025,#ff6600}]:0.164751)[&bootstrap=22]:0.038672,((HecWnt2:0.0)[&!hilight={1,0.025,#ff6600}]:0.066059,(POcaWnt2:0.0)[&!hilight={1,0.025,#ff6600}]:0.150603)[&bootstrap=95]:0.135914)[&bootstrap=20]:0.014155)[&bootstrap=49]:0.094462,((LirLW2_2:0.0)[&!hilight={1,0.025,#ff6600}]:0.008051,((LirLW2_4:0.0)[&!hilight={1,0.025,#ff6600}]:1.0E-6,(LirLW2_1:0.0)[&!hilight={1,0.025,#ff6600}]:1.0E-6)[&bootstrap=84]:0.123784)[&bootstrap=10]:0.389218)[&bootstrap=60]:0.176762)[&bootstrap=25]:0.087939,(LcaLW2_2:0.0)[&!hilight={1,0.025,#6600cc}]:0.460392)[&bootstrap=48]:0.149218,((AlcLW2_1:0.0)[&!hilight={1,0.025,#ff0000}]:0.42105,((NveWnt2:0.0)[&!hilight={1,0.025,#ff0000}]:0.16257,((AntLW2_1:0.0)[&!hilight={1,0.025,#ff0000}]:0.023006,(ApeLW2_1:0.0)[&!hilight={1,0.025,#ff0000}]:0.041373)[&bootstrap=99]:0.104231)[&bootstrap=77]:0.086037)[&bootstrap=66]:0.087652)[&bootstrap=39]:0.09699)[&bootstrap=17,!collapse={"collapsed",5.452781},!name="Wnt2"]:0.075607,((HspWnt7:0.636105,(DmeWnt7:0.506632,(LgiWnt7:0.19566,(EkaWnt7:0.158227,((PduWnt7:0.317095,(EtrWnt7:0.168923,(SkoWnt7:0.149204,BbeWnt7:0.214592)[&bootstrap=54]:0.014453)[&bootstrap=58]:0.07361)[&bootstrap=9]:0.019442,(ObiWnt7:0.137522,GmaWnt7:0.055177)[&bootstrap=51]:0.146826)[&bootstrap=6]:0.02454)[&bootstrap=20]:0.025766)[&bootstrap=58]:0.103017)[&bootstrap=30]:0.049844)[&bootstrap=23]:0.055068,((AntLW2_2:0.0)[&!hilight={1,0.025,#ff0000}]:0.904856,((NveWnt7a:0.0)[&!hilight={1,0.025,#ff0000}]:0.747688,(((NveWnt7b.v1:0.0)[&!hilight={1,0.025,#ff0000}]:0.183058,(NveWnt7b:0.0)[&!hilight={1,0.025,#ff0000}]:0.117692)[&bootstrap=87]:0.381833,((ApeLW7_1:0.0)[&!hilight={1,0.025,#ff0000}]:0.163159,(AntLW7_1:0.0)[&!hilight={1,0.025,#ff0000}]:0.222924)[&bootstrap=90]:0.346541)[&bootstrap=46]:0.090043)[&bootstrap=34]:0.139505)[&bootstrap=2]:0.166068)[&bootstrap=2,!collapse={"collapsed",5.485195},!name="Bilat+AnthWnt7"]:0.121265)[&bootstrap=0]:0.075336)[&bootstrap=0]:0.02649,((((((((((DApuWnt9:0.697318,(((LgiWnt9:0.320226,EkaWnt9:0.397229)[&bootstrap=51]:0.106214,(GmaWnt9:0.515107,PduWnt9:0.63017)[&bootstrap=13]:0.033561)[&bootstrap=10]:0.039301,(SkoWnt9:0.384049,(HsaWnt9:0.170518,HsaWnt9b:0.352054)[&bootstrap=68]:0.124219)[&bootstrap=49]:0.070497)[&bootstrap=49]:0.170825)[&bootstrap=44]:0.20251,DmeWnt9:0.879481)[&bootstrap=67,!collapse={"collapsed",5.139067},!name="Wnt9 (Bilat)"]:0.198853,((AauWnt7b:0.0)[&!hilight={1,0.025,#ff0066}]:2.182036,((((MleLWC_1[&!color=#ff0000]:0.0)[&!hilight={1,0.025,#00ccff}]:0.170469,(LpaLWC_1[&!color=#ff0000]:0.0)[&!hilight={1,0.025,#00ccff}]:0.117083)[&bootstrap=36,!color=#ff0000]:0.041182,((LpaLWC_2[&!color=#ff0000]:0.0)[&!hilight={1,0.025,#00ccff}]:0.168574,(PpiWnt9_1[&!color=#ff0000]:0.0)[&!hilight={1,0.025,#00ccff}]:0.274777)[&bootstrap=49,!color=#ff0000]:0.080425)[&bootstrap=60,!color=#ff0000]:0.068302,((VmuLWC_1[&!color=#ff0000]:0.0)[&!hilight={1,0.025,#00ccff}]:0.450918,(CoeLWC_1[&!color=#ff0000]:0.0)[&!hilight={1,0.025,#00ccff}]:0.270823)[&bootstrap=92,!color=#ff0000]:0.174038)[&bootstrap=95,!color=#ff0000,!collapse={"collapsed",5.065536},!name="CteWntA"]:0.415838)[&bootstrap=5]:0.307957)[&bootstrap=0]:0.087717,(((DmeWnt8:2.018299,((CheWnt1b:0.0)[&!hilight={1,0.025,#ff6600}]:0.384563,(LirLW2_3:0.0)[&!hilight={1,0.025,#ff6600}]:0.864509)[&bootstrap=95]:0.715032)[&bootstrap=23]:0.261878,((LcaLW8_1:0.0)[&!hilight={1,0.025,#6600cc}]:0.981714,((((LirLWB_1:0.0)[&!hilight={1,0.025,#ff6600}]:1.144186,((HvuWnt8:0.0)[&!hilight={1,0.025,#ff6600}]:0.631644,(CheWnt8:0.0)[&!hilight={1,0.025,#ff6600}]:0.765275)[&bootstrap=32]:0.042925)[&bootstrap=29]:0.178612,((ElaWnt8:0.0)[&!hilight={1,0.025,#ff6600}]:0.557409,((POcaWnt8:0.0)[&!hilight={1,0.025,#ff6600}]:0.170905,(HecWnt8:0.0)[&!hilight={1,0.025,#ff6600}]:0.213762)[&bootstrap=96]:0.316383)[&bootstrap=37]:0.088247)[&bootstrap=27]:0.214862,((PnoLW8_1:0.0)[&!hilight={1,0.025,#ff0066}]:0.242698,(AauWnt8:0.0)[&!hilight={1,0.025,#ff0066}]:0.24852)[&bootstrap=99]:0.569427)[&bootstrap=41]:0.185703)[&bootstrap=82]:0.379749)[&bootstrap=13]:0.288428,((PduWnt8:0.533383,((GmaWnt8:0.463624,(BbeWnt8:0.311488,(XlaWnt8:0.264281,SkoWnt8:0.248387)[&bootstrap=7]:1.0E-6)[&bootstrap=62]:0.129041)[&bootstrap=63]:0.120158,(EtrWnt8:0.313927,SpuWnt8:0.50011)[&bootstrap=75]:0.114147)[&bootstrap=42]:0.10127)[&bootstrap=34]:0.112226,(((NveWnt8b:0.0)[&!hilight={1,0.025,#ff0000}]:0.454234,((NveWnt8c:0.0)[&!hilight={1,0.025,#ff0000}]:0.347677,(NveWnt8:0.0)[&!hilight={1,0.025,#ff0000}]:0.244979)[&bootstrap=100]:0.420669)[&bootstrap=89]:0.179257,(((PruLW4_1:0.0)[&!hilight={1,0.025,#ff0000}]:0.597104,((PruLW16_1:0.0)[&!hilight={1,0.025,#ff0000}]:0.753908,(AlcLW4_2:0.0)[&!hilight={1,0.025,#ff0000}]:0.218849)[&bootstrap=61]:0.159703)[&bootstrap=88]:0.211845,(((AntLW8_2:0.0)[&!hilight={1,0.025,#ff0000}]:1.238425,(ApeLW5_2:0.0)[&!hilight={1,0.025,#ff0000}]:0.14993)[&bootstrap=89]:0.261847,(((AntLW16_2:0.0)[&!hilight={1,0.025,#ff0000}]:0.34098,(ApeLW8_1:0.0)[&!hilight={1,0.025,#ff0000}]:0.155643)[&bootstrap=51]:0.073312,((ApeLW8_2:0.0)[&!hilight={1,0.025,#ff0000}]:0.088546,(AntLW8_1:0.0)[&!hilight={1,0.025,#ff0000}]:0.426828)[&bootstrap=19]:0.061764)[&bootstrap=36]:0.133167)[&bootstrap=82]:0.306192)[&bootstrap=56]:0.189566)[&bootstrap=65]:0.201757)[&bootstrap=36]:0.238745)[&bootstrap=5,!collapse={"collapsed",3.6782660000000007},!name="Wnt8"]:0.255133)[&bootstrap=0]:0.042899,((((PpiLW2_1[&!color=#ff0000]:0.0)[&!hilight={1,0.025,#00ccff}]:0.521999,((((MleLW7_1[&!color=#ff0000]:0.0)[&!hilight={1,0.025,#00ccff}]:0.320121,(LpaLW4_1[&!color=#ff0000]:0.0)[&!hilight={1,0.025,#00ccff}]:0.267379)[&bootstrap=35,!color=#ff0000]:0.056947,(PpiLW7_1[&!color=#ff0000]:0.0)[&!hilight={1,0.025,#00ccff}]:0.396331)[&bootstrap=32,!color=#ff0000]:0.058897,(((CoeLWA_1[&!color=#ff0000]:0.0)[&!hilight={1,0.025,#00ccff}]:0.160508,(VmuLW4_1[&!color=#ff0000]:0.0)[&!hilight={1,0.025,#00ccff}]:0.196424)[&bootstrap=95,!color=#ff0000]:0.148854,(LpaLW1_1[&!color=#ff0000]:0.0)[&!hilight={1,0.025,#00ccff}]:0.190025)[&bootstrap=73,!color=#ff0000]:0.064775)[&bootstrap=23,!color=#ff0000]:0.053387)[&bootstrap=94,!color=#ff0000,!collapse={"collapsed",5.1469819999999995},!name="CteWntB"]:0.644573,((LirLW1_2:0.0)[&!hilight={1,0.025,#ff6600}]:0.352146,TsoW4_1:0.572299)[&bootstrap=18]:0.19266)[&bootstrap=3]:0.129249,(((AlcLW10_1:0.0)[&!hilight={1,0.025,#ff0000}]:1.280245,(((ApeLW10_1:0.0)[&!hilight={1,0.025,#ff0000}]:0.088857,(AntLW10_1:0.0)[&!hilight={1,0.025,#ff0000}]:0.132514)[&bootstrap=98]:0.276469,(NveWnt10:0.0)[&!hilight={1,0.025,#ff0000}]:0.296602)[&bootstrap=88]:0.055458)[&bootstrap=11]:0.097659,(((HspWnt10:1.121679,CelWnt10:1.253172)[&bootstrap=16]:0.298494,(SkoWnt10:0.409638,HerWnt10:0.393807)[&bootstrap=27]:0.044087)[&bootstrap=5]:0.057445,(((((BflWnt10:0.404381,EkaWnt10:0.090989)[&bootstrap=37]:0.05554,(PduWnt10:0.272075,(HroWnt10:0.073101,PvuWnt10:0.117489)[&bootstrap=98]:0.30495)[&bootstrap=45]:0.088527)[&bootstrap=7]:0.033723,(DApuWnt10:0.294907,DmeWnt10:0.39806)[&bootstrap=87]:0.184223)[&bootstrap=4]:0.027684,SmaWnt10:0.680514)[&bootstrap=11]:0.031677,HsaWnt10b:0.387037)[&bootstrap=22]:0.101401)[&bootstrap=15]:0.098221)[&bootstrap=5,!collapse={"collapsed",4.540033},!name="Wnt10 (Bilat + Anth)"]:0.195438)[&bootstrap=0]:0.1021)[&bootstrap=0]:0.082164,((((LcaLWB_1:0.0)[&!hilight={1,0.025,#6600cc}]:0.430505,((PnoLWB_2:0.0)[&!hilight={1,0.025,#ff0066}]:0.062372,((PnoLWB_1:0.0)[&!hilight={1,0.025,#ff0066}]:0.359933,(AauWnt6:0.0)[&!hilight={1,0.025,#ff0066}]:1.0E-6)[&bootstrap=81]:0.132937)[&bootstrap=94]:0.254016)[&bootstrap=39]:0.180981,((((HvuWnt6a:0.0)[&!hilight={1,0.025,#ff6600}]:0.477619,(ElaWnt6:0.0)[&!hilight={1,0.025,#ff6600}]:0.856509)[&bootstrap=62]:0.420401,((HvuWnt6b:0.0)[&!hilight={1,0.025,#ff6600}]:0.255715,((HvuWnt6c.v1:0.0)[&!hilight={1,0.025,#ff6600}]:1.0E-6,(HvuWnt6c:0.0)[&!hilight={1,0.025,#ff6600}]:0.006758)[&bootstrap=100]:0.314583)[&bootstrap=92]:0.181439)[&bootstrap=36]:0.147531,(((CheWnt6:0.0)[&!hilight={1,0.025,#ff6600}]:1.0E-6,(CheWnt6.v1:0.0)[&!hilight={1,0.025,#ff6600}]:1.0E-6)[&bootstrap=100]:0.50325,((HecWnt6:0.0)[&!hilight={1,0.025,#ff6600}]:0.109523,(POcaWnt6:0.0)[&!hilight={1,0.025,#ff6600}]:0.116933)[&bootstrap=100]:0.213053)[&bootstrap=86]:0.178061)[&bootstrap=43]:0.206065)[&bootstrap=36,!collapse={"collapsed",4.368499},!name="MedWnt6"]:0.574778,((((PpiLW6_1[&!color=#ff0000]:0.0)[&!hilight={1,0.025,#00ccff}]:0.514413,((((CoeLW6_1[&!color=#ff0000]:0.0)[&!hilight={1,0.025,#00ccff}]:0.140643,(VmuLW6_1[&!color=#ff0000]:0.0)[&!hilight={1,0.025,#00ccff}]:0.213146)[&bootstrap=99,!color=#ff0000]:0.360967,((MleLW6_1[&!color=#ff0000]:0.0)[&!hilight={1,0.025,#00ccff}]:0.31506,(LpaLW6_1[&!color=#ff0000]:0.0)[&!hilight={1,0.025,#00ccff}]:0.368682)[&bootstrap=40,!color=#ff0000]:0.070968)[&bootstrap=57,!color=#ff0000]:0.178089,((LpaLW11_1[&!color=#ff0000]:0.0)[&!hilight={1,0.025,#00ccff}]:0.256265,((PpiLW11_2[&!color=#ff0000]:0.0)[&!hilight={1,0.025,#00ccff}]:0.051914,(PpiLW11_1[&!color=#ff0000]:0.0)[&!hilight={1,0.025,#00ccff}]:0.199189)[&bootstrap=96,!color=#ff0000]:0.407027)[&bootstrap=89,!color=#ff0000]:0.2622)[&bootstrap=50,!color=#ff0000]:0.109997)[&bootstrap=98,!color=#ff0000,!collapse={"collapsed",4.798778},!name="CteWntC"]:0.67296,((((XlaWnt6:0.221357,SkoWnt6:0.24961)[&bootstrap=15]:1.0E-6,(SpuWnt6:0.230417,EtrWnt6:0.282807)[&bootstrap=33]:0.0452)[&bootstrap=37]:0.048392,((LgiWnt6:0.151062,(SmaWnt6:0.242567,EkaWnt6:0.139048)[&bootstrap=55]:0.076729)[&bootstrap=32]:0.071825,(DmeWnt6:0.51069,((AlcLW6_1:0.0)[&!hilight={1,0.025,#ff0000}]:0.838844,PduWnt6:0.367205)[&bootstrap=10]:0.050295)[&bootstrap=4]:0.052049)[&bootstrap=3]:0.054098)[&bootstrap=4]:0.093422,(HspWnt6:1.356561,((NveWnt6:0.0)[&!hilight={1,0.025,#ff0000}]:0.500398,((AlcLW6_2:0.0)[&!hilight={1,0.025,#ff0000}]:0.60108,((NveWnt6.v1:0.0)[&!hilight={1,0.025,#ff0000}]:0.303591,(AntLW6_1:0.0)[&!hilight={1,0.025,#ff0000}]:0.305219)[&bootstrap=74]:0.118423)[&bootstrap=42]:0.07359)[&bootstrap=22]:0.038311)[&bootstrap=9]:0.083649)[&bootstrap=12,!collapse={"collapsed",4.811608},!name="Bilat+AnthWnt6"]:0.198333)[&bootstrap=1]:0.078716,((((LcaLW1_1:0.0)[&!hilight={1,0.025,#6600cc}]:0.417808,(((AauWnt1.v1:0.0)[&!hilight={1,0.025,#ff0066}]:1.809764,(AauWnt1:0.0)[&!hilight={1,0.025,#ff0066}]:0.18632)[&bootstrap=20]:0.129063,((LcaLW1_3:0.0)[&!hilight={1,0.025,#6600cc}]:0.466078,((AlcLW1_2:0.0)[&!hilight={1,0.025,#ff0000}]:0.616563,((((POcaWnt1:0.0)[&!hilight={1,0.025,#ff6600}]:0.095661,(HecWnt1:0.0)[&!hilight={1,0.025,#ff6600}]:0.152301)[&bootstrap=94]:0.159899,(HvuWnt1:0.0)[&!hilight={1,0.025,#ff6600}]:0.338064)[&bootstrap=43]:0.006581,(CheWnt1:0.0)[&!hilight={1,0.025,#ff6600}]:0.42599)[&bootstrap=83]:0.168943)[&bootstrap=13]:0.075322)[&bootstrap=2]:0.071252)[&bootstrap=0]:0.011067)[&bootstrap=4]:0.142113,(LcaLW1_2:0.0)[&!hilight={1,0.025,#6600cc}]:0.24854)[&bootstrap=3]:0.045238,(((BflWnt1:0.418494,SkoWnt1:0.24336)[&bootstrap=51]:0.055594,(HsaWnt1:0.30728,(SmaWnt1:0.232989,(HspWnt1:0.820241,(((CphWnt1:0.127927,(DApuWnt1:0.145,(RbiWnt1:0.101657,DmeWnt1:0.217153)[&bootstrap=55]:0.043773)[&bootstrap=33]:0.052387)[&bootstrap=77]:0.05991,(PnuWnt1:0.280771,(LgiWnt1:0.029102,PvuWnt1:0.286349)[&bootstrap=88]:0.235117)[&bootstrap=53]:0.12702)[&bootstrap=18]:0.037,HerWnt1:0.307451)[&bootstrap=38]:0.009055)[&bootstrap=19]:0.037562)[&bootstrap=25]:0.027986)[&bootstrap=17]:0.058738)[&bootstrap=30]:0.204645,((AlcLW1_1:0.0)[&!hilight={1,0.025,#ff0000}]:0.410189,((NveWnt1:0.0)[&!hilight={1,0.025,#ff0000}]:0.239455,((AntLW1_1:0.0)[&!hilight={1,0.025,#ff0000}]:0.043936,(ApeLW4_1:0.0)[&!hilight={1,0.025,#ff0000}]:0.061696)[&bootstrap=89]:0.145122)[&bootstrap=63]:0.085502)[&bootstrap=63]:0.153202)[&bootstrap=3]:0.042691)[&bootstrap=1,!collapse={"collapsed",4.344113},!name="Wnt1"]:0.047509)[&bootstrap=0]:0.044916)[&bootstrap=0]:0.053284)[&bootstrap=0]:0.040908,(((((AntLW3_1:0.0)[&!hilight={1,0.025,#ff0000}]:0.192469,(NveWnt3:0.0)[&!hilight={1,0.025,#ff0000}]:0.197758)[&bootstrap=92]:0.100535,(AlcLW3_1:0.0)[&!hilight={1,0.025,#ff0000}]:0.568808)[&bootstrap=97]:0.198037,((((LirLW3_2:0.0)[&!hilight={1,0.025,#ff6600}]:1.0E-6,(ElaWnt3:0.0)[&!hilight={1,0.025,#ff6600}]:0.720879)[&bootstrap=39]:0.217039,((DpuNW3_1:0.048449,((CheWnt3:0.0)[&!hilight={1,0.025,#ff6600}]:0.046513,LflNW3_1:0.06398)[&bootstrap=80]:0.061018)[&bootstrap=57]:0.012582,((((CmuNW3_1:0.0)[&!hilight={1,0.025,#ff6600}]:0.046265,(POcaWnt3:0.0)[&!hilight={1,0.025,#ff6600}]:0.032463)[&bootstrap=81]:0.03234,((HecWnt3:0.0)[&!hilight={1,0.025,#ff6600}]:0.064818,(LirLW3_1:0.0)[&!hilight={1,0.025,#ff6600}]:0.197198)[&bootstrap=59]:0.128161)[&bootstrap=46]:0.036048,(HvuWnt3:0.0)[&!hilight={1,0.025,#ff6600}]:0.219293)[&bootstrap=31]:0.04273)[&bootstrap=42]:0.106851)[&bootstrap=78]:0.255243,((LcaLW3_1:0.0)[&!hilight={1,0.025,#6600cc}]:0.903739,((PnoLW3_1:0.0)[&!hilight={1,0.025,#ff0066}]:0.559664,(ResWnt3:0.0)[&!hilight={1,0.025,#ff0066}]:0.225858)[&bootstrap=75]:0.08314)[&bootstrap=53]:0.043294)[&bootstrap=62]:0.140846)[&bootstrap=58]:0.110973,((((HdiLW5_2:0.0)[&!hilight={1,0.025,#ff0000}]:0.655439,CinWnt3:0.689893)[&bootstrap=46]:0.518474,(XlaWnt3:0.168437,BflWnt3:0.20984)[&bootstrap=86]:0.096943)[&bootstrap=7]:0.0312,SkoWnt3:0.309282)[&bootstrap=20]:0.175527)[&bootstrap=11,!collapse={"collapsed",5.10748},!name="Wnt3"]:0.115515)[&bootstrap=0]:0.030649,((((AntLW16_1:0.0)[&!hilight={1,0.025,#ff0000}]:0.421076,((HdiLW16_1:0.0)[&!hilight={1,0.025,#ff0000}]:1.04579,(NveWnt16:0.0)[&!hilight={1,0.025,#ff0000}]:0.145853)[&bootstrap=53]:0.18906)[&bootstrap=15]:0.069934,(((SkoWnt16:0.331744,(LgiWnt16:0.285529,(HroWnt16:0.76257,(PduWnt16:0.200548,CteWnt16:0.267325)[&bootstrap=44]:0.023568)[&bootstrap=36]:0.069403)[&bootstrap=33]:0.057848)[&bootstrap=30]:0.052667,(EkaWnt16:0.109974,DApuWnt16:0.221494)[&bootstrap=85]:0.077934)[&bootstrap=32]:0.081905,DreWnt16:0.372017)[&bootstrap=18]:0.064294)[&bootstrap=5]:0.055118,((AlcLW16_1:0.0)[&!hilight={1,0.025,#ff0000}]:0.659061,((LcaLW16_1:0.0)[&!hilight={1,0.025,#6600cc}]:0.658801,((TcyLW16_1:0.0)[&!hilight={1,0.025,#6600cc}]:0.644527,((LcaLW16_3:0.0)[&!hilight={1,0.025,#6600cc}]:0.51896,(AauWnt16:0.0)[&!hilight={1,0.025,#ff0066}]:0.246436)[&bootstrap=16]:1.0E-6)[&bootstrap=31]:0.121571)[&bootstrap=36]:0.251783)[&bootstrap=5]:0.066862)[&bootstrap=14,!collapse={"collapsed",5.103597},!name="Wnt16"]:0.235125)[&bootstrap=0]:0.01796,((((LirLWA_1:0.0)[&!hilight={1,0.025,#ff6600}]:0.989051,((AlcLWA_1:0.0)[&!hilight={1,0.025,#ff0000}]:0.490616,(AlcLW2_2:0.0)[&!hilight={1,0.025,#ff0000}]:0.339009)[&bootstrap=74]:0.248965)[&bootstrap=46]:0.444181,((((HecWntA:0.0)[&!hilight={1,0.025,#ff6600}]:0.079409,((CheWntA:0.0)[&!hilight={1,0.025,#ff6600}]:2.364314,(POcaWntA:0.0)[&!hilight={1,0.025,#ff6600}]:0.107437)[&bootstrap=33]:0.118419)[&bootstrap=67]:0.848362,((AauWntA:0.0)[&!hilight={1,0.025,#ff0066}]:0.077042,(AauWntA.v1:0.0)[&!hilight={1,0.025,#ff0066}]:1.239938)[&bootstrap=95]:0.444252)[&bootstrap=50]:0.417922,(((ApeLWA_1:0.0)[&!hilight={1,0.025,#ff0000}]:0.06237,(AntLWA_1:0.0)[&!hilight={1,0.025,#ff0000}]:0.123936)[&bootstrap=100]:0.324543,((HdiLWA_2:0.0)[&!hilight={1,0.025,#ff0000}]:0.207282,(NveWntA:0.0)[&!hilight={1,0.025,#ff0000}]:0.154614)[&bootstrap=76]:0.158006)[&bootstrap=73]:0.262401)[&bootstrap=13]:0.072655)[&bootstrap=14]:0.228052,(((((GmaWntA:0.175222,(ApiWntA:0.271684,HerWntA:0.238136)[&bootstrap=90]:0.154086)[&bootstrap=65]:0.089602,(EkaWntA:0.173136,TsuWntA:0.403591)[&bootstrap=56]:0.083558)[&bootstrap=51]:0.083835,((PnoWX:0.0)[&!hilight={1,0.025,#ff0066}]:0.251478,((CheWX:0.0)[&!hilight={1,0.025,#ff6600}]:0.052997,(CheWY:0.0)[&!hilight={1,0.025,#ff6600}]:0.337125)[&bootstrap=81]:1.0E-6)[&bootstrap=100]:6.008307)[&bootstrap=2]:1.0E-6,((CteWntA:0.244438,PduWntA:0.193372)[&bootstrap=91]:0.098274,(APcaWntA:0.151342,(PvuWntA:0.164951,LgiWntA:0.068248)[&bootstrap=99]:0.085722)[&bootstrap=99]:0.163495)[&bootstrap=88]:0.080699)[&bootstrap=7]:0.216631,(((SpuWntA:0.24909,EseWntA:0.363943)[&bootstrap=97]:0.135121,SkoWntA:0.408262)[&bootstrap=88]:0.165937,BflWntA:0.514439)[&bootstrap=40]:0.072467)[&bootstrap=3]:0.05643)[&bootstrap=0,!collapse={"collapsed",0.0},!name="WntA"]:0.098089)[&bootstrap=0]:0.03167,((((NveWnt11:0.0)[&!hilight={1,0.025,#ff0000}]:0.526673,((LcaLW11_3:0.0)[&!hilight={1,0.025,#6600cc}]:0.123395,((((((HvuWnt11b:0.0)[&!hilight={1,0.025,#ff6600}]:0.411257,(((LirLW11_1:0.0)[&!hilight={1,0.025,#ff6600}]:1.0E-6,(LirLWB_2:0.0)[&!hilight={1,0.025,#ff6600}]:0.057535)[&bootstrap=100]:0.686078,(((HecWnt11b:0.0)[&!hilight={1,0.025,#ff6600}]:0.197204,(POcaWnt11b:0.0)[&!hilight={1,0.025,#ff6600}]:0.158483)[&bootstrap=98]:0.274162,(CheWnt11b:0.0)[&!hilight={1,0.025,#ff6600}]:0.394262)[&bootstrap=46]:0.092025)[&bootstrap=9]:1.0E-6)[&bootstrap=93]:0.425911,(LirLW3_3:0.0)[&!hilight={1,0.025,#ff6600}]:0.780807)[&bootstrap=20]:0.156142,(((HecWnt11a:0.0)[&!hilight={1,0.025,#ff6600}]:0.197445,(POcaWnt11a:0.0)[&!hilight={1,0.025,#ff6600}]:0.14103)[&bootstrap=96]:0.55148,(CheWnt11a:0.0)[&!hilight={1,0.025,#ff6600}]:1.119017)[&bootstrap=72]:0.371819)[&bootstrap=12]:0.259255,((LcaLW11_2:0.0)[&!hilight={1,0.025,#6600cc}]:0.964378,((PnoLW11_1:0.0)[&!hilight={1,0.025,#ff0066}]:0.146605,((AauWnt11b.v3:0.0)[&!hilight={1,0.025,#ff0066}]:0.146096,(((AauWnt11b.v1:0.0)[&!hilight={1,0.025,#ff0066}]:0.032556,(AauWnt11b:0.0)[&!hilight={1,0.025,#ff0066}]:1.0E-6)[&bootstrap=78]:0.037037,(AauWnt11b.v2:0.0)[&!hilight={1,0.025,#ff0066}]:0.097019)[&bootstrap=75]:0.084768)[&bootstrap=69]:0.074705)[&bootstrap=91]:0.240952)[&bootstrap=51]:0.21455)[&bootstrap=2]:0.082134,((LcaLW11_1:0.0)[&!hilight={1,0.025,#6600cc}]:0.469268,(AauWnt11a:0.0)[&!hilight={1,0.025,#ff0066}]:0.52039)[&bootstrap=45]:0.204249)[&bootstrap=4]:0.073999)[&bootstrap=8]:0.291267)[&bootstrap=8]:0.183509,(((BflWnt11:0.345818,DreWnt11:0.367287)[&bootstrap=68]:0.087274,SkoWnt11:0.301402)[&bootstrap=58]:0.038592,(((GmaWnt11:0.313322,EkaWnt11:0.164333)[&bootstrap=58]:0.064685,SmaWnt11:0.395875)[&bootstrap=66]:0.080168,((HroWnt11b:0.276676,(HroWnt11c:1.409206,(HroWnt11a:0.530629,PduNWt11_1:0.430849)[&bootstrap=53]:1.0E-6)[&bootstrap=32]:0.081638)[&bootstrap=40]:0.196307,LgiWnt11:0.345326)[&bootstrap=43]:0.182804)[&bootstrap=48]:0.099288)[&bootstrap=41]:0.177252)[&bootstrap=7,!collapse={"collapsed",4.084},!name="Wnt11"]:0.140851,(HspWnt4:0.843722,(((((EkaWnt4:0.118227,((HroWnt4:0.685738,SmaWnt4:0.120998)[&bootstrap=34]:0.145663,((AfaWnt4:0.156145,PduWnt4:0.19697)[&bootstrap=35]:0.039078,(CelWnt4:0.745606,LgiWnt4:0.115228)[&bootstrap=16]:0.048722)[&bootstrap=30]:0.055354)[&bootstrap=16]:0.034318)[&bootstrap=16]:0.056849,DreWnt4:0.207272)[&bootstrap=4]:0.029978,SkoWnt4:0.232206)[&bootstrap=2]:0.031052,BflWnt4:0.171297)[&bootstrap=14]:0.107035,(((AntLW4_2:0.0)[&!hilight={1,0.025,#ff0000}]:0.140427,((AntLW4_1:0.0)[&!hilight={1,0.025,#ff0000}]:0.26391,((AntLW4_4:0.0)[&!hilight={1,0.025,#ff0000}]:0.28075,((HdiLW4_1:0.0)[&!hilight={1,0.025,#ff0000}]:0.196573,(NveWnt4:0.0)[&!hilight={1,0.025,#ff0000}]:0.098573)[&bootstrap=53]:0.07056)[&bootstrap=44]:0.043232)[&bootstrap=48]:0.035539)[&bootstrap=24]:0.124107,((((AauWnt4b:0.0)[&!hilight={1,0.025,#ff0066}]:0.964469,((CheWnt4:0.0)[&!hilight={1,0.025,#ff6600}]:0.348642,((HvuWnt4:0.0)[&!hilight={1,0.025,#ff6600}]:0.257205,(HecWnt4:0.0)[&!hilight={1,0.025,#ff6600}]:0.226942)[&bootstrap=80]:0.202067)[&bootstrap=93]:0.227767)[&bootstrap=26]:0.115374,((ResWnt4:0.0)[&!hilight={1,0.025,#ff0066}]:0.087393,((AauWnt4:0.0)[&!hilight={1,0.025,#ff0066}]:0.05197,((AlcLW4_3:0.0)[&!hilight={1,0.025,#ff0000}]:1.983949,(PnoLW4_1:0.0)[&!hilight={1,0.025,#ff0066}]:0.211954)[&bootstrap=40]:0.610674)[&bootstrap=18]:0.033074)[&bootstrap=35]:0.287757)[&bootstrap=12]:0.169556,(AlcLW4_1:0.0)[&!hilight={1,0.025,#ff0000}]:0.346831)[&bootstrap=1]:0.077624)[&bootstrap=2]:0.074741)[&bootstrap=1]:0.074638)[&bootstrap=0,!collapse={"collapsed",3.2744370000000007},!name="Wnt4"]:0.019401)[&bootstrap=0]:0.142403)[&bootstrap=0]:0.030956)[&bootstrap=0,!collapse={"collapsed",4.325073},!name="Wnt5 + CteWntD"]:0.092284)[&bootstrap=0]:0.071163)[&bootstrap=0]:0.027819,(CelWnt5:0.619786,HroWnt5b:0.677509)[&bootstrap=18]:0.088457)[&bootstrap=1]:0.046153,((((MleLW5_1[&!color=#ff0000]:0.0)[&!hilight={1,0.025,#00ccff}]:0.314612,(((LpaLWC_3[&!color=#ff0000]:0.0)[&!hilight={1,0.025,#00ccff}]:0.621271,((VmuLW5_1[&!color=#ff0000]:0.0)[&!hilight={1,0.025,#00ccff}]:0.114788,((LpaLW5_1[&!color=#ff0000]:0.0)[&!hilight={1,0.025,#00ccff}]:0.718445,(CoeLW2_1[&!color=#ff0000]:0.0)[&!hilight={1,0.025,#00ccff}]:0.089204)[&bootstrap=26,!color=#ff0000]:0.047768)[&bootstrap=31,!color=#ff0000]:0.095097)[&bootstrap=33,!color=#ff0000]:0.073023,(LpaLW9_1[&!color=#ff0000]:0.0)[&!hilight={1,0.025,#00ccff}]:0.153874)[&bootstrap=15,!color=#ff0000]:0.044648)[&bootstrap=50,!color=#ff0000,!collapse={"collapsed",4.325073},!name="CteWntD"]:0.768949,((AntLW5_2:0.0)[&!hilight={1,0.025,#ff0000}]:0.255096,(ApeLW5_1:0.0)[&!hilight={1,0.025,#ff0000}]:0.12143)[&bootstrap=100]:0.549463)[&bootstrap=16]:0.299735,(NveWnt5:0.0)[&!hilight={1,0.025,#ff0000}]:0.428769)[&bootstrap=3]:0.169053)[&bootstrap=10]:0.074174,(AntLW5_1:0.0)[&!hilight={1,0.025,#ff0000}]:0.924478)[&bootstrap=16]:0.08963)[&bootstrap=49]:0.365055)[&bootstrap=49]:0.223646)[&bootstrap=37]:1.0E-6,(((HvuWnt5:0.0)[&!hilight={1,0.025,#ff6600}]:0.278119,(ElaWnt5:0.0)[&!hilight={1,0.025,#ff6600}]:0.257729)[&bootstrap=28]:0.029099,((CheWnt5b:0.0)[&!hilight={1,0.025,#ff6600}]:0.105412,((CheWnt5:0.0)[&!hilight={1,0.025,#ff6600}]:0.00219,(CheNWA_1:0.0)[&!hilight={1,0.025,#ff6600}]:1.0E-6)[&bootstrap=100]:0.245322)[&bootstrap=97]:0.262034)[&bootstrap=39]:0.042759)[&bootstrap=44]:0.053969)[&bootstrap=99]:0.335479,(LirLW5_6:0.0)[&!hilight={1,0.025,#ff6600}]:0.073075);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=16;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=24;
+	set legend.attribute="bootstrap";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="bootstrap";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=10;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
